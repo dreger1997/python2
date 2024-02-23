@@ -16,7 +16,8 @@ class MyAge:
         return f"{self.__my_name}, you are so young, only {self.__my_age_years} years old!"
 
 
-# instantiate the class and execute the print function
-age = MyAge("1982-08-04", "Mr James")
-print(age.show_me_my_age())
-# > 'Mr James, you are so young, only 39 years old!'
+if __name__ == "__main__":
+    # instantiate the class and execute the print function
+    age = MyAge("1982-08-04", "Mr James")
+    print(age.show_me_my_age())
+    # > 'Mr James, you are so young, only 39 years old!'
